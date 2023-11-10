@@ -194,6 +194,8 @@ ipython_config.py
 *.tar
 *.mat
 *.pdf
+Data/
+Test/
 
 # Remove previous ipynb_checkpoints
 #   git rm -r .ipynb_checkpoints/
