@@ -44,11 +44,11 @@ The project is structured as follows:
 
 -   **Loading the Dataset:** Loading the training dataset from the .mat file and converting it to a Pandas DataFrame, and then loading the test dataset from the test_images folder, and converting it to a Pandas DataFrame.
 
--   **Data Cleaning:** Removing unnecessary columns from the training and test datasets, and then removing the records with missing and duplicate values.
+-   **Data Cleaning:** Removing unnecessary columns from the training dataset, and then removing the records with missing and duplicate values.
 
 -   **Data Visualization:** Visualizing the training dataset using Matplotlib.
 
--   **Data Preprocessing:** Preprocessing the training and test datasets by resizing the images, extracting the faces using the Haar Cascade Classifier, and then converting the images to a NumPy array.
+-   **Data Preprocessing:** Preprocessing the training and test datasets by resizing the images, normalizing the images to the range [1,-1], extracting the faces using the Haar Cascade Classifier, and then converting the images to a NumPy array.
 
     -   **Haar Cascade Classifier:** The Haar Cascade Classifier is a machine learning-based approach where a cascade function is trained from a lot of positive and negative images. It is then used to detect objects and faces in other images.
 
@@ -74,7 +74,7 @@ The project is structured as follows:
 
         ![Cosine Similarity Formula](./Images/Cosine%20similarity.png)
 
-    -   **Finding the Best Match Example for the Test Images:** !
+    -   **Finding the Best Match Example for the Test Images:**
 
         ![Best Match Example](./Images/Test%20img%20vs%20Celeb%20img%20output.png)
 
@@ -84,9 +84,9 @@ The project is structured as follows:
 
 -   **Getting the Best Match in Real-Time:** Getting the best match for the face in real-time using the webcam.
 
-    -   **Real-Time Best Match Example:** !
+    -   **Real-Time Best Match Example:**
 
-        ![Real-Time Best Match Example](./Images/Real%20time%20output.png)
+        ![Real-Time Best Match Example](./Images/Real-Time%20Example.png)
 
 ## References
 
